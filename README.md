@@ -73,3 +73,14 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
   Nest is [MIT licensed](LICENSE).
+
+## Package Installed
+
+- HBS - render html [https://docs.nestjs.com/techniques/mvc]
+
+## Auth Packages 
+- npm install --save @nestjs/passport passport passport-local
+- npm install --save-dev @types/passport-local
+
+- npm install --save @nestjs/jwt passport-jwt
+- npm install --save-dev @types/passport-jwt

@@ -24,7 +24,7 @@ export class ProductService {
     updateProduct(productId: string, title: string, description: string, price: number) {
         const [product, index] = this.findProduct(productId);
 
-        const currentProduct = { ...product };
+        let currentProduct = { ...product };
 
         if (title){
             currentProduct.title = title
